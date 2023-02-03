@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;  */
+}
+body{
+    background-color: #FF704C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divOne{
+    height: 65vh;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+}
+.divOne h1{
+    font-size: 34px;
+}
+ion-icon {
+    font-size: 74px;
+  }
+  .divOne img{
+    height: 65vh;
+  }
+  .divTwo{
+    height: 65vh;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+}
+.divTwo h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.divTwo form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.inputs{
+    text-align: center;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+}
+h3{
+    color: #FF704C;
+    font-size: 14px;
+    margin-right: 270px;
+}
+input{
+    border: 2px solid #000;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+ button{
+   
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #FF704C;
+    color: white;
+    border-radius: 5px;
+}
+.divTwo .listOutline{
+    width: 100px;
+    height: 100px;
+  }
+  .cards{
+    display: flex;
+    color: #000;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+}
+.divThree .card{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid red;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.divThree {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+.divThree img{
+    width: 150px;
+    height: 150px;
+    
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.buttons button{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.redBtn{
+    background-color: red;
+    color: #fff;
+}
+.greyBtn{
+    background-color: #ccc;
+    color: #fff;
+}
+#modal{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .add-a-taskButton{
+    width: 350px;
+    margin-right: 200px;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #FF704C;
+    color: white;
+    border: none;
+   
+ }
+ /* .closeBtn{
+
+ }
+ .handledelete{
+
+ } */

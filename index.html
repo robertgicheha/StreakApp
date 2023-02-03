@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" types="text/css" href="index.css" />
+    <title>Streak Counter App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="divOne" class="divOne">
+        <div>
+          <p id="addBtn">
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </p>
+        </div>
+
+        <div id="watch">
+          <img src="./images/watch.png" alt="" />
+        </div>
+        <div id="form">
+          <h1>Welcome to My Streak Counter</h1>
+        </div>
+      </div>
+
+      <modal>
+      <div id="modal" class="divThree"></div>
+      <form div>
+      <div two form>
+      <div class="divTwo">
+        <div>
+          <p id="closeBtn">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </p>
+        </div>
+
+        <div>
+          <ion-icon class="listOutline" name="list-outline"></ion-icon>
+          <p>Add A Todo Here</p>
+        </div>
+
+        <div class="inputs">
+          <h2 class="h2"></h2>
+          <button class="add-a-taskButton" type="button-add-a-task">Please Add A Task</button>
+          <h3 for="tname">Task Name</h3>
+          <input class="name" type="text" name="tname" placeholder="text"/>
+          <h3 for="image">Image</h3>
+          <input class="image" type="text" name="image" placeholder="image url"/>
+          <h3 for="tname">Start Date</h3>
+          <input class="date" type="date" name="tname" placeholder="date"/>
+          <button class="submitButton" type="button">Add Task</button>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="divThree">
+        <h2>Activities</h2>
+        <div class="cards">
+          <div class="streakcard"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="./dist/streak.js" defer></script>
+  </body>
+</html>
